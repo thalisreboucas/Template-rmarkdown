@@ -19,15 +19,10 @@ body {
     margin-bottom: 0px !important;
 }
 
-.nav-tabs{background:#417DCC}
-
-.pages .nav-tabs>li>a {
-    background:#1C4B8A
-    font-weight: 400 !important;
-}
+.nav-tabs{background:#6E7175}
 
 .pages .nav-tabs>li.active>a {
-    background-color: #1C4B8A !important;
+    background-color: #323333 !important;
 }
 
 
