@@ -1,0 +1,117 @@
+---
+title: <img src="logo_w.png" width= 55% height=35% align="left"  />
+author: "Thalis Rebouças"
+date: "15/10/2021"
+output: 
+   rmdformats::material:
+    highlight: kate
+    thumbnails: False
+    gallery: True
+    code_folding: show
+    css: custom.css
+    
+pkgdown:
+  as_is: true 
+---
+
+
+```{r include=FALSE}
+library(pacman)
+
+
+pacman::p_load(ggplot2, hrbrthemes ,knitr,rmdformats, dplyr,plotly)
+
+
+
+```
+
+# {-}
+
+<div> <img src="E:/edime/Thalis/CadernoR/ale/ufc.png" width= 12% height=12% align="left"/>  **Universidade federal de Fortaleza**|Departamento de Estatística e matemática aplicada </a> 
+</div>
+
+<br>
+
+<br>
+
+<center>  <p> **Nome do Trabalho**
+<p/>
+<center/>
+
+<br>
+
+<br>
+
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+<center>  <p> **00/00/202? **
+<p/>
+<center/>
+
+<br>
+
+<br>
+
+<br>
+
+
+<center> Feito por :  <br>
+![](logo-dark.png){#id .class width=20% height=20% }  </center>
+
+
+# Introdução 
+
+# Metodologia
+
+# Analises 
+
+## Gráficos  {.tabset}
+
+### 1
+
+```{r}
+
+
+ggplot(  ) + # Para criar uma Figura
+    stat_function( fun = function (x)dnorm(x,0,1), # usando o fun com o function para criar a normal 
+    geom="area" , # Para deixar o gráfico todo preenchido
+    xlim = c(-3,3), # Para definir meu eixo X 
+    alpha = .5, fill = "blue" , col = "blue") + # Colocando transparencia e cores 
+    ylab("f(x)") + xlab("X") + ggtitle("Distribuição Normal") + # colocando Títulos 
+    theme_minimal() # deixando o grafico mais bonito =)  
+
+```
+
+
+### 2
+
+```{r}
+
+
+ggplot(  ) + # Para criar uma Figura
+    stat_function( fun = function (x)dnorm(x,0,1), # usando o fun com o function para criar a normal 
+    geom="area" , # Para deixar o gráfico todo preenchido
+    xlim = c(-3,3), # Para definir meu eixo X 
+    alpha = .5, fill = "purple" , col = "pink") + # Colocando transparencia e cores 
+    ylab("f(x)") + xlab("X") + ggtitle("Distribuição Normal") + # colocando Títulos 
+    theme_minimal() # deixando o grafico mais bonito =)  
+
+```
+
+
+# Conclusão 
+
+
