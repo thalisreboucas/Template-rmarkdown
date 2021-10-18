@@ -87,3 +87,8 @@ pre, tt, code {
 .page code a {
   color: inherit;
 }
+
+
+.dropdown-menu li a:hover{
+  color:#ff8c00
+}
