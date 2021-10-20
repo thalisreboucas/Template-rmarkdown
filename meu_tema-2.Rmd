@@ -1,10 +1,11 @@
 ---
 title: <img src="logo_w.png" width= 55% height=35% align="left"  />
 author: "Thalis Rebouças"
+favicon: "favicon.png"
 date: "15/10/2021"
 output: 
    rmdformats::material:
-    highlight: kate
+    highlight: default
     thumbnails: False
     gallery: True
     code_folding: show
@@ -27,8 +28,21 @@ pacman::p_load(ggplot2, hrbrthemes ,knitr,rmdformats, dplyr,plotly)
 
 # {-}
 
-<div> <img src="E:/edime/Thalis/CadernoR/ale/ufc.png" width= 12% height=12% align="left"/>  **Universidade federal de Fortaleza**|Departamento de Estatística e matemática aplicada </a> 
-</div>
+<center>
+<img src="E:/edime/Thalis/CadernoR/ale/ufc.png" width= 45% height=12% /> </center>
+
+<br>
+
+<center> <p>**Universidade federal de Fortaleza**|Departamento de Estatística e matemática aplicada <p/> </center>
+
+
+<br>
+
+<br>
+
+<br>
+
+<br>
 
 <br>
 
@@ -42,8 +56,6 @@ pacman::p_load(ggplot2, hrbrthemes ,knitr,rmdformats, dplyr,plotly)
 
 <br>
 
-
-<br>
 
 <br>
 
